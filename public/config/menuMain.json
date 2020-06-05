@@ -23,13 +23,13 @@
     "submenu": [
       {
         "icon": "fa fa-file-text-o",
-        "slug": "Organizaciones",
+        "slug": "organizaciones",
         "title": "2.1 Centros de Distribución",
         "anchor": "centros"
       },   
       {
         "icon": "fa fa-file-text-o",
-        "slug": "Organizaciones",
+        "slug": "organizaciones",
         "title": "2.2 Estrategias Competitivas ",
         "anchor": "estrategias"
       }     

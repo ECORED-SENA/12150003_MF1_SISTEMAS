@@ -1,3 +1,142 @@
 include ../mixins/functions
 
 +pageHeader('Aspectos y características de los Sistemas de Información', 'assets/images/header/header_media.svg')
+.container
+    .header-ecored
+        h1 3. Sistemas de información
+    .header
+        .card
+            .card-body
+                .row.my-4
+                    .col-12.col-md-6
+                        p Teniendo en cuenta el dinamismo de los mercados que se mencionaba anteriormente y específicamente las empresas que están inmersas en él, les ingresan y generan gran cantidad de información relacionada con todas las partes interesadas en su actividad, ya sean proveedores, clientes, el gobierno, otras empresas y hasta la misma comunidad o sociedad que se encuentra en su entorno de acción, y cada una de estas, juega un papel importante en  el logro de los objetivos organizacionales, en la rentabilidad y su sostenibilidad, motivo por el cual se debe tratar adecuadamente todas estas entradas y salidas de información. 
+
+                    .col-12-col-md-6.text-center.ml-3
+                        img(src="assets/images/pages/ilustraciones/sistemas.svg").img-fluid
+
+                .row.my-5              
+                    .col-12.col-md-5
+                        p Considerando que la empresa se comporta como un sistema, que se denominará sistema de información, y realizando una subdivisión más precisa en sus componentes, se puede considerar que el sistema de información es un trinomio constituido por (Díaz, 2013): 
+                        br
+                        ul
+                            li(style="color: #4DD0E0")
+                                p(style="color: #00223D") Una estructura de decisión.
+                            li(style="color: #4DD0E0")
+                                p(style="color: #00223D") Una actividad transformadora y operante, concretada en un conjunto de reglas de gestión. 
+                            li(style="color: #4DD0E0")    
+                                p(style="color: #00223D") Un conjunto de informaciones.     
+                    .col-12-col-md-6.text-center
+                        img(src="assets/images/pages/ilustraciones/sistemas2.svg").img-fluid   
+
+        .py-3(style="background-color:#D4F4F7; border-radius:9px")
+            .row
+                .col-1.col-md-1.text-center
+                     img(src="assets/images/pages/ilustraciones/comilla1.svg").img-fluid.ml-5
+                .col-10.col-md-10
+                    p.mb-0.ml-4 Dicho sistema recibe unos estímulos concretados en solicitudes y utilizando el conjunto de las informaciones patrimonio del sistema, según indican sus reglas de gestión, elabora unos resultados que son enviados al exterior (Díaz, 2013).                   
+                .col-1.col-md-1.text-center
+                    img(src="assets/images/pages/ilustraciones/comilla2.svg").img-fluid.mt-4.mr-5                   
+
+
+
+.container
+
+    .header  
+        .card
+            .card-body        
+                .row.justify-content-center.mt-2
+
+                    .col-lg-6
+                        p Esta es una forma textual de describir lo que sucede al interior de un sistema de información de una empresa, el cual funciona como la red de neuronas y venas del cuerpo humano, que constantemente recibe estímulos de diferente procedencia, los procesa y los convierte en una respuesta u acción
+                        br
+                        p Los sistemas de información pueden ser enfocados en diferentes aspectos o necesidades, en el mercado actual pueden encontrarse diferentes tipos, entre los más comunes están: 
+
+                    .col-lg-6
+                                
+                        #accordionExample.accordion
+                            .card
+                                #headingOne.card-header(style="background: #36AFEA")
+                                    p(style="margin-top: 1rem")
+                                        button.btn.btn-link(type='button', data-toggle='collapse', data-target='#collapseOne', aria-expanded='true', aria-controls='collapseOne')
+                                            p(style="font-size: 20px; color: #fff").mb-0.text-center Sistemas de procesamiento de transacciones
+                                #collapseOne.collapse.show(aria-labelledby='headingOne', data-parent='#accordionExample')
+                                    .card-body(style="background: #D4F4F7")
+                                        | Los cuales procesar la información producida en la operación cotidiana de la organización, la cual es necesaria para toma de decisiones a nivel operacional y táctico. 
+                    
+                            .card
+                                #headingTwo.card-header(style="background: #36AFEA")
+                                    p(style="margin-top: 1rem")
+                                        button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseTwo', aria-expanded='false', aria-controls='collapseTwo')
+                                            p(style="font-size: 20px; color: #fff").mb-0.text-center Sistema de control de procesos de negocio
+                                #collapseTwo.collapse(aria-labelledby='headingTwo', data-parent='#accordionExample')
+                                    .card-body(style="background: #D4F4F7")
+                                        | Permiten tener información en tiempo real del estado de la operación, específicamente en plantas industrial o de manufactura. 
+                            
+                            .card
+                                #headingThree.card-header(style="background: #36AFEA")
+                                    p(style="margin-top: 1rem")
+                                        button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseThree', aria-expanded='false', aria-controls='collapseThree')
+                                            p(style="font-size: 20px; color: #fff").mb-0.text-center Sistemas de colaboración empresarial
+                                #collapseThree.collapse(aria-labelledby='headingThree', data-parent='#accordionExample')
+                                    .card-body(style="background: #D4F4F7")
+                                        | Es una de las opciones con mayor cobertura organizacional dada la posibilidad de múltiples usuarios, se puede integrar desde los proveedores hasta los clientes. 
+
+                            .card
+                                #headingFour.card-header(style="background: #36AFEA")
+                                    p(style="margin-top: 1rem")
+                                        button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseFour', aria-expanded='false', aria-controls='collapseThree')
+                                            p(style="font-size: 20px; color: #fff").mb-0.text-center Sistemas de información de gestión
+                                #collapseFour.collapse(aria-labelledby='headingThree', data-parent='#accordionExample')
+                                    .card-body(style="background: #D4F4F7")
+                                        | Se enfocan en apoyar la toma de decisiones a nivel gerencial, ya que soportan la gestión de la organización, con informes estadísticos que recopilan datos de diferentes fuentes. 
+                            .card
+                                #headingFive.card-header(style="background: #36AFEA")
+                                    p(style="margin-top: 1rem")
+                                        button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseFive', aria-expanded='false', aria-controls='collapseThree')
+                                            p(style="font-size: 20px; color: #fff").mb-0.text-center Sistema de apoyo a la toma de decisiones
+                                #collapseFive.collapse(aria-labelledby='headingThree', data-parent='#accordionExample')
+                                    .card-body(style="background: #D4F4F7")
+                                        | Este modelo también sirve de soporte para la toma de decisiones gerenciales o directivas, especialmente cuando esta la necesidad de proyectar nuevos mercados o posibles inversiones de capital en nuevas unidades de negocio.
+                            .card
+                                #headingSix.card-header(style="background: #36AFEA")
+                                    p(style="margin-top: 1rem")
+                                        button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseSix', aria-expanded='false', aria-controls='collapseThree')
+                                            p(style="font-size: 20px; color: #fff").mb-0.text-center Sistema de información ejecutiva
+                                #collapseSix.collapse(aria-labelledby='headingThree', data-parent='#accordionExample')
+                                    .card-body(style="background: #D4F4F7")
+                                        | El cual presenta la información más relevante de la información de forma gráfica y dinámica, permitiendo conocer lo necesario para que la alta dirección tome las acciones pertinentes según la situación. 
+#conceptos
+.container
+    .header-ecored
+        h1 3.1 Conceptos Generales
+    .header
+        .card
+            .card-body
+                .row.my-4
+                    .col-12.col-md-5
+                        p Los datos son valores, hechos, evidencias sobre un aspecto concreto de un objeto o concepto: si queremos comprar un apartamento, la antigüedad del edificio, donde está, la reforma a la que se sometió o los materiales de construcción, son los datos de los que podemos disponer (Marco et al., 2013).
+                        br
+                        p En una organización los datos se generan en múltiples momentos de la operación, la cantidad de unidades producidas, el número de trabajadores por turno, la cantidad de pedidos despachados, el tiempo de recorrido en la entrega de un producto, el valor del inventario de la materia prima.
+
+
+                    .col-12-col-md-6.text-center.ml-3
+                        img(src="assets/images/pages/ilustraciones/conceptos.svg").img-fluid
+        .card
+            .card-body                        
+
+                .row.my-4
+                    .col-12.col-md-5
+                        p Cuando estos datos se combinan de tal manera que en conjunto dan una idea elaborada sobre aquel objeto o concepto, entonces decimos que tenemos una información: en el ejemplo anterior, esos datos ordenados y relacionados nos dan la descripción del edificio donde está el apartamento que se quiere comprar (Marco et al., 2013).
+
+                        p En las empresas, puedo tomar todos los datos, recopilarlos adecuadamente y convertirlos en información relevante que pueda permitir tomar decisiones de forma objetiva, por ejemplo, dada la cantidad de personas en un turno y la cantidad de unidades producidas, puedo establecer si el costo de producción por cada unidad, aumento, disminuyo o se mantuvo estable frente a la semana anterior.
+
+                    .col-12-col-md-6.text-center.ml-3
+                        img(src="assets/images/pages/ilustraciones/conceptos2.svg").img-fluid
+
+    .jumbotron(style="background: #CBD9E4")
+        .row.justify-content-center.align.items-center
+            .col-auto
+                img(src="assets/images/pages/ilustraciones/conceptos3.svg").img-fluid 
+            .col-10
+                p.mb-0 Luego del proceso de tomar datos y revisarlos de forma conjunta y ordenada, se obtiene información, esta también puede evolucionar rápidamente, ya que si esta hace referencia a temas desconocidos y útiles, permite tomar decisiones en diferentes niveles de la organización, como operativo, táctico o estratégico;  esto sería generación de conocimiento lo cual sería un gran resultado  para la mejora continua, sostenibilidad y posiblemente el aumento de la competitividad en un mercado, puesto que se puede llegar a tener un factor diferenciador que agreguen valor según las necesidades identificadas.
+                      
