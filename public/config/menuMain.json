@@ -9,7 +9,7 @@
     "id": 1,
     "icon": "fa fa-play-circle",
     "slug": "Introduccion",
-    "title": "1. Introducción",
+    "title": "Introducción",
     "breadcrumb": ["Inicio","Introducción"],
     "path": "pages/1-tema.html"
   },  
@@ -17,20 +17,20 @@
     "id": 2,
     "icon": "fa fa-file-text-o",
     "slug": "organizaciones",
-    "title": "2. Organizaciones",
+    "title": "1. Organizaciones",
     "breadcrumb": ["Inicio","tema 2"],
     "path": "pages/2-tema.html",    
     "submenu": [
       {
         "icon": "fa fa-file-text-o",
         "slug": "organizaciones",
-        "title": "2.1 Centros de Distribución",
+        "title": "1.1 Centros de Distribución",
         "anchor": "centros"
       },   
       {
         "icon": "fa fa-file-text-o",
         "slug": "organizaciones",
-        "title": "2.2 Estrategias Competitivas ",
+        "title": "1.2 Estrategias Competitivas ",
         "anchor": "estrategias"
       }     
     ]   
@@ -40,14 +40,14 @@
     "id": 3,
     "icon": "fa fa-file-text-o",
     "slug": "sistemas-de-informacion",
-    "title": "3. Sistemas de Información",
+    "title": "2. Sistemas de Información",
     "breadcrumb": ["Inicio","Tema 3"],
     "path": "pages/3-tema.html",
     "submenu": [
       {
         "icon": "fa fa-file-text-o",
         "slug": "sistemas-de-informacion",
-        "title": "3.1 Conceptos Generales",
+        "title": "2.1 Conceptos Generales",
         "anchor": "conceptos"
       }
     ]  
@@ -56,23 +56,29 @@
     "id": 4,
     "icon": "fa fa-file-text-o",
     "slug": "procesamiento-de-datos",
-    "title": "4. Procesamiento de Datos",
+    "title": "3. Procesamiento de Datos",
     "breadcrumb": ["Inicio","Tema 4"],
     "path": "pages/4-tema.html",    
     "submenu": [
       {
         "icon": "fa fa-file-text-o",
         "slug": "procesamiento-de-datos",
-        "title": "4.1 Origen y registro de datos",
+        "title": "3.1 Origen y registro de datos",
         "anchor": "origen"
       },   
       {
         "icon": "fa fa-file-text-o",
         "slug": "procesamiento-de-datos",
-        "title": "4.2 Preparación de reportes, comunicación y almacenamiento de datos",
+        "title": "3.2 Preparación de reportes, comunicación y almacenamiento de datos",
         "anchor": "estrategias"
       }     
     ] 
+  },
+  {
+    "icon": "fa fa-question-circle",
+    "slug": "actividad-1",
+    "title": "Actividad didáctica",
+    "path": "pages/actividad-1.html"
   }
-     
+  
 ]
